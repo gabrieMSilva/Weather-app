@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+main > h1 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "poppins";
+}
+
+main #search-form form {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+main #search-form input {
+  flex: 1;
+  height: 32px;
+  font-size: 16px;
+  font-family: "poppins";
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+}
+
+main #search-form #button-search {
+  padding: 0 1rem;
+  font-family: "poppins";
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(5, 5, 62);
+  cursor: pointer;
+}
+
+main #tempo-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #tempo-info .tempo-data h2 {
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+main #tempo-info .tempo-data span {
+  font-size: 34px;
+  font-family: "poppins";
+  font-weight: 700;
+}
